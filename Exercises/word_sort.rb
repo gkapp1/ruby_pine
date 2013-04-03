@@ -16,7 +16,7 @@ def sorter(array)
     i = 0
     current_winner = array[i]
     current_position = i
-    while i + 1 <= n
+    while i < n
       if current_winner < array[i+1]
         current_winner = current_winner
         current_position = current_position
@@ -32,7 +32,9 @@ def sorter(array)
   puts sorted_words
 end
   
-puts sorter(WORDS)
+sorter(WORDS)
 
-hell = ["zebra","cat","dog","apple", "cat", "banana","charlie","finger","animal","cat", "puppy"]
-puts sorter(hell)
+puts "-------" * 5
+
+random_words = ["zebra","cat","dog","apple", "cat", "banana","charlie","finger","animal","cat", "puppy"]
+sorter(random_words)
