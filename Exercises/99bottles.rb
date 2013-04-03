@@ -10,5 +10,5 @@ while bottles_of_beer > 0
   puts
 end
 
-puts "Shit, I'm drunk!"
+puts "Wow, I'm drunk!"
 puts
