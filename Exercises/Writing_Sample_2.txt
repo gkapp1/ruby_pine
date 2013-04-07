@@ -1,0 +1,4 @@
+--- 
+- This is an array filed with text.
+- Three different elements in this array...
+- ...and each one has a text string. Wow!
