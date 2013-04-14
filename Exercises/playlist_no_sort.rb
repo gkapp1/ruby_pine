@@ -15,4 +15,4 @@ File.open playlist_name, 'w' do |f|
 end
 
 # Okay so this worked! It plays in iTunes but takes a minute. 
-# Note that this is totally unsorted...the next playlist should be sorted
+# Note that this is totally unsorted...the next playlist should be random!
