@@ -8,7 +8,6 @@
 
 output = []
 puts "Please enter an integer that you'd like converted to new-school Roman numerals."
-puts
 print "> "
 reply = gets.chomp.to_i
 
