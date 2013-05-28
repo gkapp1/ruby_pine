@@ -16,7 +16,8 @@ class Die
   end
 
   def user_cheat
-    puts "Hey buddy -- what "
+    puts "Hey buddy -- what do you want to roll? I know magic!"
+    print "> "
     @number_showing = gets.chomp.to_i
   end
   
@@ -34,5 +35,5 @@ die.cheat
 puts die.showing
 puts die.showing
 die.user_cheat
-puts "You rolled a #{die.showing}"
+puts "What do you know? You rolled a #{die.showing}!"
 puts die.showing
