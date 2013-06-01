@@ -14,11 +14,6 @@ class Die
   def cheat
     @number_showing = 6
   end
-
-  def user_cheat
-    puts "Hey buddy -- what "
-    @number_showing = gets.chomp.to_i
-  end
   
   def showing
     @number_showing
@@ -32,7 +27,4 @@ puts die.showing
 puts die.showing
 die.cheat
 puts die.showing
-puts die.showing
-die.user_cheat
-puts "You rolled a #{die.showing}"
 puts die.showing

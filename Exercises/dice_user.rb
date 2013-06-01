@@ -35,5 +35,6 @@ die.cheat
 puts die.showing
 puts die.showing
 die.user_cheat
+puts die.showing
 puts "What do you know? You rolled a #{die.showing}!"
 puts die.showing
