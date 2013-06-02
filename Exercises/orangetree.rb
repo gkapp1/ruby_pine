@@ -19,7 +19,7 @@ class OrangeTree
   end
     
   def pick_an_orange
-    if @oranges > 1
+    if @oranges >=55 1
       @oranges = @oranges - 1
       puts "You picked an orange. It's delicious. Now go wash your hands."
     else
@@ -48,44 +48,16 @@ end
     
 tree = OrangeTree.new
 tree.height
-tree.one_year_passes
-tree.pick_an_orange
+
+10.times do
+  tree.one_year_passes
+end
+
+tree.height
 tree.count_the_oranges
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.height
-tree.one_year_passes
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
-tree.pick_an_orange
+
+10.times do
+  tree.pick_an_orange
+end
+
 tree.count_the_oranges
-tree.height
